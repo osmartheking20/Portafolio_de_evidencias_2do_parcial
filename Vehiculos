@@ -13,12 +13,12 @@ class Vehiculos (val marca: String, val modelo: String, var color: String = "Neg
         println("Las placas son: ${this.placas}")
     }
 
-    //atributos
+    
     var placas = ""
     var gasolina = 0f
     var encendido = false
 
-    //metodos
+    
     fun encender(){
         encendido = true
     }
